@@ -1,1 +1,36 @@
 /* write your override styles here */
+/* Tag-1 - Override the display property to hide */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Tag-2 - Override the display property to hide */
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  /* Tag-3 - Override the display property to hide */
+  #wall #tag-3.slick {
+    display: none;
+  }
+  
+  /* Tag-4 - Override the display property to hide */
+  #wall #tag-4 {
+    display: none;
+  }
+  
+  /* Tag-5 - Override the display property to hide */
+  #wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* Tag-6 - Override the display property to hide */
+  #wall div.parent div:last-child div#tag-6 {
+    display: none;
+  }
+  
+  /* Tag-7 - Override the display property to hide */
+  #wall div.parent div > #tag-7.slick {
+    display: none;
+  }
+  
